@@ -1,6 +1,6 @@
 # xjar-encrypt-demo
 
-使用Xjar对jar文件进行加密，防止反编译
+使用ProGuard + Xjar对jar文件进行加密，防止反编译
 
 ### 可直接在windows运行的jar文件
 
@@ -9,4 +9,9 @@ out\artifacts\xjarencrype_jar\xjarencrype.jar
 运行之前请确认已有java环境
 
 #### 附Xjar源码地址
+
 https://github.com/core-lib/xjar
+
+https://blog.csdn.net/qq_37320062/article/details/129305658
+
+<injar>${project.build.finalName}.jar</injar> 改成本地jar也行，然后配置加密
